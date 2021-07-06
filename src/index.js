@@ -2,6 +2,7 @@ import './style.css';
 import {buildHomePage} from './home.js';
 import {buildMenuPage} from './menu.js';
 import { buildContactPage } from './contact';
+import img10 from './img/img10.jpg';
 
 const navbar = document.createElement('div');
 const home = document.createElement('button');
@@ -32,7 +33,8 @@ contact.setAttribute('id', 'contactbtn');
 navbar.appendChild(home);
 navbar.appendChild(menu);
 navbar.appendChild(contact);
-content.style.backgroundImage = "url('../src/img/img10.jpg')";
+//content.style.backgroundImage = "url('../src/img/img10.jpg')";
+content.style.backgroundImage = img10;
 const darkBackground = document.createElement('div');
     darkBackground.setAttribute('id', 'darkBackground');
     darkBackground.style.backgroundColor = "rgba(0,0,0,0.5)";
