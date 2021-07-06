@@ -3,6 +3,7 @@ import {buildHomePage} from './home.js';
 import {buildMenuPage} from './menu.js';
 import { buildContactPage } from './contact';
 import img10 from './img/img10.jpg';
+import img0 from './img/img0.jpg';
 
 const navbar = document.createElement('div');
 const home = document.createElement('button');

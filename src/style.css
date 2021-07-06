@@ -84,3 +84,44 @@ body{
     height:400px;
 }
 
+#food0, #imgPop0{
+    background-image: url('./img/img0.jpg');
+}
+ 
+#food1, #imgPop1{
+    background-image: url('./img/img1.jpg');
+}
+ 
+#food2, #imgPop2{
+    background-image: url('./img/img2.jpg');
+}
+ 
+#food3, #imgPop3{
+    background-image: url('./img/img3.jpg');
+}
+ 
+#food4, #imgPop4{
+    background-image: url('./img/img4.jpg');
+}
+ 
+#food5, #imgPop5{
+    background-image: url('./img/img5.jpg');
+}
+ 
+#food6, #imgPop6{
+    background-image: url('./img/img6.jpg');
+}
+ 
+#food7, #imgPop7{
+    background-image: url('./img/img7.jpg');
+}
+ 
+#food8, #imgPop8{
+    background-image: url('./img/img8.jpg');
+}
+ 
+#food9, #imgPop9{
+    background-image: url('./img/img9.jpg');
+}
+ 
+

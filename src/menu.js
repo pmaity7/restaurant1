@@ -1,4 +1,5 @@
 import './style.css';
+import img0 from './img/img0.jpg';
 
 function buildMenuPage(){
     const content = document.getElementById('content');
@@ -25,8 +26,8 @@ function buildMenuPage(){
         imgPopup.classList.add('imgPopup');
         imgPopup.style.left = `${i+20}%`;
         div.classList.add('foods');
-        div.style.backgroundImage = `url('../src/img/img${i}.jpg')`;
-        imgPopup.style.backgroundImage = `url('../src/img/img${i}.jpg')`;
+        //div.style.backgroundImage = `url('./img/img${i}.jpg')`;
+        //imgPopup.style.backgroundImage = `url('./img/img${i}.jpg')`;
         div.addEventListener('mouseover', () => {
             imgPopup.removeAttribute('hidden');
         })
