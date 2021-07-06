@@ -17,9 +17,11 @@ function buildMenuPage(){
     
     for(let i=0; i<10; i++){
 
-        const div = document.createElement('h1');
+        const div = document.createElement('div');
         const imgPopup = document.createElement('div');
         imgPopup.setAttribute('hidden', '');
+        imgPopup.setAttribute('id', `imgPop${i}`);
+        div.setAttribute(id, `food${i}`);
         imgPopup.classList.add('imgPopup');
         imgPopup.style.left = `${i+20}%`;
         div.classList.add('foods');
