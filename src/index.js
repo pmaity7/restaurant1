@@ -44,7 +44,7 @@ const darkBackground = document.createElement('div');
     darkBackground.style.height = "100%";
     darkBackground.style.zIndex = "4";
     darkBackground.style.position = "absolute";
-    content.appendChild(darkBackground);
+    //content.appendChild(darkBackground);
 document.body.appendChild(navbar);
 content.appendChild(homeContainer);
 content.appendChild(menuContainer);
