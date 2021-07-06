@@ -24,6 +24,7 @@ body{
 #content{
     width: 80%;
     transition: all 12s;
+    background-image: url('./img/img10.jpg');
 }
 
 
