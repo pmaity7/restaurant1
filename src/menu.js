@@ -21,7 +21,7 @@ function buildMenuPage(){
         const imgPopup = document.createElement('div');
         imgPopup.setAttribute('hidden', '');
         imgPopup.setAttribute('id', `imgPop${i}`);
-        div.setAttribute(id, `food${i}`);
+        div.setAttribute('id', `food${i}`);
         imgPopup.classList.add('imgPopup');
         imgPopup.style.left = `${i+20}%`;
         div.classList.add('foods');
