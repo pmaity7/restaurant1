@@ -6,7 +6,7 @@ function buildHomePage(){
     const container = document.getElementById('homeContainer');
     const h1 = document.createElement('h1');
     h1.classList.add('heading');
-    h1.textContent = `Pallavi's Kitchen`;
+    h1.textContent = `Indian Mom's Kitchen`;
     container.appendChild(h1);
     //content.appendChild(container);
     const p = document.createElement('p');
