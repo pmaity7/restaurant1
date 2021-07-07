@@ -18,7 +18,7 @@ function buildContactPage(){
     container.appendChild(p1);
     p1.classList.add('text');
     const p2 = document.createElement('p');
-    p2.textContent = "Mail us at: pallaviskitchen@email.com"
+    p2.textContent = "Mail us at: indianmomskitchen@email.com"
     container.appendChild(p2);
     p2.classList.add('text');
     container.style.zIndex = 7;
